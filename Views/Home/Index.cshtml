@@ -1,0 +1,190 @@
+﻿<main>
+    <!-- Hero Section -->
+    <section class="hero-section mb-5">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h1 class="display-5 fw-bold mb-3">Quản Lý Sinh Viên</h1>
+                <p class="lead text-muted mb-4">
+                    Một ứng dụng web đơn giản để quản lý thông tin sinh viên. 
+                    Thêm, sửa, xóa, tìm kiếm sinh viên một cách dễ dàng và hiệu quả.
+                </p>
+                <div>
+                    <a href="@Url.Action("Index", "SinhVienMVC")" class="btn btn-primary btn-lg me-3">
+                        <i class="bi bi-people-fill"></i> Bắt Đầu
+                    </a>
+                    <a href="#features" class="btn btn-outline-secondary btn-lg">
+                        Tìm Hiểu Thêm
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <div class="stats-card">
+                    <div class="stat-number">
+                        <span id="totalStudents">0</span>
+                    </div>
+                    <p class="stat-label">Sinh Viên</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Features Section -->
+    <section id="features" class="features-section mb-5">
+        <h2 class="text-center mb-5 fw-bold">Tính Năng Chính</h2>
+        
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-plus-circle"></i>
+                    </div>
+                    <h5>Thêm Sinh Viên</h5>
+                    <p class="text-muted">Thêm sinh viên mới với giao diện form đơn giản</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-pencil-square"></i>
+                    </div>
+                    <h5>Chỉnh Sửa</h5>
+                    <p class="text-muted">Cập nhật thông tin sinh viên bất cứ lúc nào</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-search"></i>
+                    </div>
+                    <h5>Tìm Kiếm</h5>
+                    <p class="text-muted">Tìm sinh viên theo tên hoặc mã sinh viên</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-trash"></i>
+                    </div>
+                    <h5>Xóa</h5>
+                    <p class="text-muted">Xóa sinh viên với xác nhận an toàn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Quick Start Section -->
+    <section class="quick-start-section mb-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="fw-bold mb-4">Bắt Đầu Nhanh</h2>
+                <ol class="quick-start-steps">
+                    <li>
+                        <strong>Truy cập Danh Sách</strong>
+                        <p class="text-muted">Nhấn nút "Bắt Đầu" hoặc menu "Danh Sách Sinh Viên" để xem danh sách</p>
+                    </li>
+                    <li>
+                        <strong>Thêm Sinh Viên Mới</strong>
+                        <p class="text-muted">Nhấn nút "+ Thêm Sinh Viên" và điền thông tin cần thiết</p>
+                    </li>
+                    <li>
+                        <strong>Tìm Kiếm & Lọc</strong>
+                        <p class="text-muted">Sử dụng thanh tìm kiếm để tìm sinh viên theo tên hoặc lớp</p>
+                    </li>
+                    <li>
+                        <strong>Quản Lý Thông Tin</strong>
+                        <p class="text-muted">Sửa hoặc xóa thông tin sinh viên theo nhu cầu</p>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="info-box">
+                    <h5 class="mb-3">💡 Mẹo Sử Dụng</h5>
+                    <ul class="tips-list">
+                        <li>Tìm kiếm hoạt động real-time</li>
+                        <li>Các trường bắt buộc được đánh dấu (*)</li>
+                        <li>Nhấn Escape để đóng form modal</li>
+                        <li>Xác nhận trước khi xóa sinh viên</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Technology Section -->
+    <section class="tech-section">
+        <h2 class="text-center fw-bold mb-5">Công Nghệ Sử Dụng</h2>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="tech-card">
+                    <h6 class="text-primary fw-bold mb-3">Backend</h6>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle text-success"></i> ASP.NET Web API</li>
+                        <li><i class="bi bi-check-circle text-success"></i> .NET Framework 4.7.2</li>
+                        <li><i class="bi bi-check-circle text-success"></i> RESTful API</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="tech-card">
+                    <h6 class="text-info fw-bold mb-3">Frontend</h6>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle text-success"></i> Bootstrap 5</li>
+                        <li><i class="bi bi-check-circle text-success"></i> jQuery</li>
+                        <li><i class="bi bi-check-circle text-success"></i> Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="tech-card">
+                    <h6 class="text-secondary fw-bold mb-3">Tính Năng</h6>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle text-success"></i> CRUD Operations</li>
+                        <li><i class="bi bi-check-circle text-success"></i> Validation</li>
+                        <li><i class="bi bi-check-circle text-success"></i> Error Handling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            // Load total students
+            $.ajax({
+                type: 'GET',
+                url: '/api/sinhvienapi',
+                success: function (response) {
+                    if (response.success && response.data) {
+                        $('#totalStudents').text(response.data.length);
+                    }
+                }
+            });
+
+            // Smooth scroll
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+                var target = $(this.getAttribute('href'));
+                if (target.length) {
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top - 100
+                    }, 1000);
+                }
+            });
+        });
+    </script>
+}
